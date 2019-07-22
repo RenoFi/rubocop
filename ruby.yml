@@ -1,0 +1,136 @@
+Metrics/AbcSize:
+  Max: 50
+
+Metrics/BlockLength:
+  Max: 30
+  Exclude:
+    - '**/spec/factories/**/*.rb'
+    - '**/*_spec.rb'
+    - 'db/**/*.rb'
+    - 'config/**/*.rb'
+    - 'spec/spec_helper.rb'
+
+Metrics/ClassLength:
+  Max: 300
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/LineLength:
+  Max: 160
+
+Metrics/MethodLength:
+  Max: 30
+  Exclude:
+    - 'db/**/*.rb'
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Layout/AlignArguments:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/AlignHash:
+  Enabled: false
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+  Exclude:
+    - '**/*_spec.rb'
+
+Layout/CaseIndentation:
+  EnforcedStyle: end
+
+Layout/IndentFirstArrayElement:
+  EnforcedStyle: consistent
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Exclude:
+    - '**/*_spec.rb'
+    - 'db/*.rb'
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
+Layout/MultilineMethodCallBraceLayout:
+  Exclude:
+    - '**/*_spec.rb'
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    # so we can write expect { action }.not_to change { obj }
+    - '**/*_spec.rb'
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Naming/PredicateName:
+  Exclude:
+    - '**/application_record.rb'
+
+Style/Alias:
+  # prefers alias_method over alias
+  EnforcedStyle: prefer_alias_method
+
+Style/BlockDelimiters:
+  Exclude:
+    - '**/*_spec.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/MixinUsage:
+  Exclude:
+    - 'bin/*'
+
+Style/NumericLiterals:
+  Exclude:
+    - 'db/*.rb'
+
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
+Style/PercentLiteralDelimiters:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Style/RescueStandardError:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Style/SignalException:
+  EnforcedStyle: semantic
+
+Style/SpecialGlobalVars:
+  EnforcedStyle: use_english_names
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: false
+
+Style/WordArray:
+  Exclude:
+    - 'db/**/*.rb'
