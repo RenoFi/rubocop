@@ -97,6 +97,9 @@ Style/FrozenStringLiteralComment:
 Style/IfUnlessModifier:
   Enabled: false
 
+Style/Lambda:
+  Enabled: false
+
 Style/MixinUsage:
   Exclude:
     - 'bin/*'
