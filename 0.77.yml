@@ -1,10 +1,10 @@
-Layout/AlignArguments:
+Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
   Exclude:
     - '**/*_spec.rb'
@@ -12,7 +12,7 @@ Layout/AlignParameters:
 Layout/CaseIndentation:
   EnforcedStyle: end
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
 Layout/EmptyLinesAroundClassBody:
@@ -38,7 +38,7 @@ Lint/AmbiguousBlockAssociation:
 Layout/EmptyLineAfterGuardClause:
   Enabled: false
 
-Lint/HandleExceptions:
+Lint/SuppressedException:
   AllowComments: true
 
 Lint/UnusedBlockArgument:
