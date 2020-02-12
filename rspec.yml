@@ -28,3 +28,4 @@ RSpec/ContextWording:
     - with
     - without
     - as
+    - given
