@@ -29,3 +29,6 @@ RSpec/NamedSubject:
 
 RSpec/NestedGroups:
   Max: 4
+
+RSpec/ReturnFromStub:
+  EnforcedStyle: block

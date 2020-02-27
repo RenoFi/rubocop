@@ -1,21 +1,10 @@
-Layout/AlignArguments:
+Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
-
-Layout/AlignHash:
-  Enabled: false
-
-Layout/AlignParameters:
-  EnforcedStyle: with_fixed_indentation
-  Exclude:
-    - '**/*_spec.rb'
 
 Layout/CaseIndentation:
   EnforcedStyle: end
 
-Layout/IndentFirstArrayElement:
-  EnforcedStyle: consistent
-
-Layout/EmptyLinesAroundClassBody:
+Layout/EmptyLineAfterGuardClause:
   Enabled: false
 
 Layout/EmptyLinesAroundBlockBody:
@@ -23,10 +12,30 @@ Layout/EmptyLinesAroundBlockBody:
     - '**/*_spec.rb'
     - 'db/*.rb'
 
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
+Layout/ExtraSpacing:
+  AllowForAlignment: false
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/HashAlignment:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 160
+
 Layout/MultilineMethodCallBraceLayout:
+  Exclude:
+    - '**/*_spec.rb'
+
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
   Exclude:
     - '**/*_spec.rb'
 
@@ -35,10 +44,7 @@ Lint/AmbiguousBlockAssociation:
     # so we can write expect { action }.not_to change { obj }
     - '**/*_spec.rb'
 
-Layout/EmptyLineAfterGuardClause:
-  Enabled: false
-
-Lint/HandleExceptions:
+Lint/SuppressedException:
   AllowComments: true
 
 Lint/UnusedBlockArgument:
@@ -50,8 +56,9 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Max: 30
   Exclude:
+    - '*.gemspec'
     - '**/spec/factories/**/*.rb'
-    - '**/*_spec.rb'
+    - 'spec/**/*'
     - 'db/**/*.rb'
     - 'config/**/*.rb'
     - 'spec/spec_helper.rb'
@@ -61,9 +68,6 @@ Metrics/ClassLength:
 
 Metrics/CyclomaticComplexity:
   Max: 10
-
-Metrics/LineLength:
-  Max: 160
 
 Metrics/MethodLength:
   Max: 30
@@ -99,6 +103,15 @@ Style/EmptyMethod:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
 
 Style/IfUnlessModifier:
   Enabled: false
