@@ -5,6 +5,7 @@ RSpec/ContextWording:
     - without
     - as
     - given
+    - for
 
 RSpec/DescribeClass:
   Enabled: false
