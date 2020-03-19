@@ -57,7 +57,8 @@ Metrics/BlockLength:
   Max: 30
   Exclude:
     - '*.gemspec'
-    - '**/spec/factories/**/*.rb'
+    - '**/factories/**/*.rb'
+    - '**/factories.rb'
     - 'spec/**/*'
     - 'db/**/*.rb'
     - 'config/**/*.rb'
@@ -67,7 +68,7 @@ Metrics/ClassLength:
   Max: 300
 
 Metrics/CyclomaticComplexity:
-  Max: 10
+  Max: 15
 
 Metrics/MethodLength:
   Max: 30

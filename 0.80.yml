@@ -58,6 +58,7 @@ Metrics/BlockLength:
   Exclude:
     - '*.gemspec'
     - '**/factories/**/*.rb'
+    - '**/factories.rb'
     - 'spec/**/*'
     - 'db/**/*.rb'
     - 'config/**/*.rb'
