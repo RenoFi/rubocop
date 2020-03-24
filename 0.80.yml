@@ -57,12 +57,12 @@ Metrics/BlockLength:
   Max: 30
   Exclude:
     - '*.gemspec'
-    - '**/factories/**/*.rb'
-    - '**/factories.rb'
-    - 'spec/**/*'
     - 'db/**/*.rb'
     - 'config/**/*.rb'
-    - 'spec/spec_helper.rb'
+    - '**/factories/**/*.rb'
+    - '**/factories.rb'
+    - '**/spec/spec_helper.rb'
+    - '**/spec/**/*'
 
 Metrics/ClassLength:
   Max: 300
