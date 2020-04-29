@@ -29,6 +29,8 @@ Layout/HashAlignment:
 
 Layout/LineLength:
   Max: 160
+  Exclude:
+    - 'db/schema.rb'
 
 Layout/MultilineMethodCallBraceLayout:
   Exclude:
