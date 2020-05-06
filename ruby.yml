@@ -74,6 +74,7 @@ Metrics/BlockLength:
     - '**/factories.rb'
     - '**/spec/spec_helper.rb'
     - '**/spec/**/*'
+    - '**/*.rake'
 
 Metrics/ClassLength:
   Max: 300
