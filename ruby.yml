@@ -7,6 +7,9 @@ Layout/CaseIndentation:
 Layout/EmptyLineAfterGuardClause:
   Enabled: false
 
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
 Layout/EmptyLinesAroundBlockBody:
   Exclude:
     - '**/*_spec.rb'
@@ -156,6 +159,9 @@ Style/RescueStandardError:
 
 Style/SignalException:
   EnforcedStyle: semantic
+
+Style/SlicingWithRange:
+  Enabled: true
 
 Style/SpecialGlobalVars:
   EnforcedStyle: use_english_names
