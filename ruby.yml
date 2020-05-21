@@ -52,6 +52,9 @@ Lint/AmbiguousBlockAssociation:
     # so we can write expect { action }.not_to change { obj }
     - '**/*_spec.rb'
 
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
 Lint/RaiseException:
   Enabled: true
 
