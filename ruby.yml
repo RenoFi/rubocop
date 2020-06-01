@@ -97,7 +97,7 @@ Metrics/ParameterLists:
   Max: 8
 
 Metrics/PerceivedComplexity:
-  Max: 10
+  Max: 15
 
 Naming/AccessorMethodName:
   Enabled: false
