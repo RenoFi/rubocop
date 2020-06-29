@@ -55,6 +55,9 @@ Lint/AmbiguousBlockAssociation:
 Lint/DeprecatedOpenSSLConstant:
   Enabled: true
 
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+
 Lint/RaiseException:
   Enabled: true
 
@@ -155,6 +158,12 @@ Style/NumericPredicate:
 Style/PercentLiteralDelimiters:
   Exclude:
     - 'spec/**/*_spec.rb'
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+Style/RedundantRegexpEscape:
+  Enabled: true
 
 Style/RescueStandardError:
   Exclude:
