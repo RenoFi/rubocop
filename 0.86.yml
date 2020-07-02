@@ -7,6 +7,9 @@ Layout/CaseIndentation:
 Layout/EmptyLineAfterGuardClause:
   Enabled: false
 
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
 Layout/EmptyLinesAroundBlockBody:
   Exclude:
     - '**/*_spec.rb'
@@ -41,10 +44,25 @@ Layout/ParameterAlignment:
   Exclude:
     - '**/*_spec.rb'
 
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
 Lint/AmbiguousBlockAssociation:
   Exclude:
     # so we can write expect { action }.not_to change { obj }
     - '**/*_spec.rb'
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
 
 Lint/SuppressedException:
   AllowComments: true
@@ -65,6 +83,7 @@ Metrics/BlockLength:
     - '**/factories.rb'
     - '**/spec/spec_helper.rb'
     - '**/spec/**/*'
+    - '**/*.rake'
 
 Metrics/ClassLength:
   Max: 300
@@ -81,7 +100,7 @@ Metrics/ParameterLists:
   Max: 8
 
 Metrics/PerceivedComplexity:
-  Max: 10
+  Max: 15
 
 Naming/AccessorMethodName:
   Enabled: false
@@ -103,6 +122,9 @@ Style/Documentation:
 
 Style/EmptyMethod:
   Enabled: false
+
+Style/ExponentialNotation:
+  Enabled: true
 
 Style/FrozenStringLiteralComment:
   Enabled: false
@@ -137,12 +159,24 @@ Style/PercentLiteralDelimiters:
   Exclude:
     - 'spec/**/*_spec.rb'
 
+Style/RedundantFetchBlock:
+  Enabled: true
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+Style/RedundantRegexpEscape:
+  Enabled: true
+
 Style/RescueStandardError:
   Exclude:
     - 'spec/**/*.rb'
 
 Style/SignalException:
   EnforcedStyle: semantic
+
+Style/SlicingWithRange:
+  Enabled: true
 
 Style/SpecialGlobalVars:
   EnforcedStyle: use_english_names
