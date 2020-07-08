@@ -29,7 +29,7 @@ RSpec/NamedSubject:
   Enabled: false
 
 RSpec/NestedGroups:
-  Max: 4
+  Max: 6
 
 RSpec/ReturnFromStub:
   EnforcedStyle: block
