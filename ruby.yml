@@ -1,3 +1,7 @@
+AllCops:
+  EnabledByDefault: true
+  NewCops: enable
+
 Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
 
@@ -6,9 +10,6 @@ Layout/CaseIndentation:
 
 Layout/EmptyLineAfterGuardClause:
   Enabled: false
-
-Layout/EmptyLinesAroundAttributeAccessor:
-  Enabled: true
 
 Layout/EmptyLinesAroundBlockBody:
   Exclude:
@@ -44,28 +45,10 @@ Layout/ParameterAlignment:
   Exclude:
     - '**/*_spec.rb'
 
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: true
-
 Lint/AmbiguousBlockAssociation:
   Exclude:
     # so we can write expect { action }.not_to change { obj }
     - '**/*_spec.rb'
-
-Lint/DeprecatedOpenSSLConstant:
-  Enabled: true
-
-Lint/MixedRegexpCaptureTypes:
-  Enabled: true
-
-Lint/RaiseException:
-  Enabled: true
-
-Lint/StructNewOverride:
-  Enabled: true
-
-Lint/SuppressedException:
-  AllowComments: true
 
 Lint/UnusedBlockArgument:
   Enabled: false
@@ -123,20 +106,8 @@ Style/Documentation:
 Style/EmptyMethod:
   Enabled: false
 
-Style/ExponentialNotation:
-  Enabled: true
-
 Style/FrozenStringLiteralComment:
   Enabled: false
-
-Style/HashEachMethods:
-  Enabled: true
-
-Style/HashTransformKeys:
-  Enabled: true
-
-Style/HashTransformValues:
-  Enabled: true
 
 Style/IfUnlessModifier:
   Enabled: false
@@ -159,21 +130,12 @@ Style/PercentLiteralDelimiters:
   Exclude:
     - 'spec/**/*_spec.rb'
 
-Style/RedundantRegexpCharacterClass:
-  Enabled: true
-
-Style/RedundantRegexpEscape:
-  Enabled: true
-
 Style/RescueStandardError:
   Exclude:
     - 'spec/**/*.rb'
 
 Style/SignalException:
   EnforcedStyle: semantic
-
-Style/SlicingWithRange:
-  Enabled: true
 
 Style/SpecialGlobalVars:
   EnforcedStyle: use_english_names
