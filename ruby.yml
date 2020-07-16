@@ -1,5 +1,4 @@
 AllCops:
-  EnabledByDefault: true
   NewCops: enable
 
 Layout/ArgumentAlignment:
