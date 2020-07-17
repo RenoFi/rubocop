@@ -1,11 +1,12 @@
 RSpec/ContextWording:
   Prefixes:
+    - as
+    - for
+    - given
+    - having
     - when
     - with
     - without
-    - as
-    - given
-    - for
 
 RSpec/DescribeClass:
   Enabled: false
