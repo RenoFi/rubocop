@@ -89,10 +89,10 @@ Metrics/ClassLength:
   Max: 300
 
 Metrics/CyclomaticComplexity:
-  Max: 15
+  Max: 20
 
 Metrics/MethodLength:
-  Max: 30
+  Max: 40
   Exclude:
     - 'db/**/*.rb'
 
