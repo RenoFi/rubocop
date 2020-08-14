@@ -61,6 +61,7 @@ Metrics/BlockLength:
     - '*.gemspec'
     - 'db/**/*.rb'
     - 'config/**/*.rb'
+    - 'lib/commands/**/*.rb'
     - '**/factories/**/*.rb'
     - '**/factories.rb'
     - '**/spec/spec_helper.rb'
