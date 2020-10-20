@@ -39,6 +39,9 @@ Layout/MultilineMethodCallBraceLayout:
   Exclude:
     - '**/*_spec.rb'
 
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
 Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
   Exclude:
