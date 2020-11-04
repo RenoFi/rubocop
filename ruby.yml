@@ -124,6 +124,7 @@ Style/Lambda:
 Style/MixinUsage:
   Exclude:
     - 'bin/*'
+    - 'Rakefile'
 
 Style/NumericLiterals:
   Exclude:
