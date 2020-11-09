@@ -102,9 +102,7 @@ Naming/PredicateName:
     - '**/application_record.rb'
 
 Naming/VariableNumber:
-  Exclude:
-    - 'spec/**/*.rb'
-    - 'db/**/*.rb'
+  Enabled: false
 
 Style/Alias:
   # prefers alias_method over alias
