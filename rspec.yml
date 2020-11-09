@@ -37,3 +37,6 @@ RSpec/NestedGroups:
 
 RSpec/ReturnFromStub:
   EnforcedStyle: block
+
+RSpec/StubbedMock:
+  Enabled: false
