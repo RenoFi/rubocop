@@ -143,6 +143,9 @@ Style/PercentLiteralDelimiters:
   Exclude:
     - 'spec/**/*_spec.rb'
 
+Style/RedundantArgument:
+  Enabled: false
+
 Style/RescueStandardError:
   Exclude:
     - 'spec/**/*.rb'
