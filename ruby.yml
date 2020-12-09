@@ -81,9 +81,7 @@ Metrics/CyclomaticComplexity:
   Max: 20
 
 Metrics/MethodLength:
-  Max: 40
-  Exclude:
-    - 'db/**/*.rb'
+  Enabled: false
 
 Metrics/ModuleLength:
   Max: 200
