@@ -102,6 +102,12 @@ Naming/PredicateName:
 Naming/VariableNumber:
   Enabled: false
 
+Naming/MethodParameterName:
+  Enabled: true
+  MinNameLength: 2
+  AllowedNames:
+    - _
+
 Style/Alias:
   # prefers alias_method over alias
   EnforcedStyle: prefer_alias_method
