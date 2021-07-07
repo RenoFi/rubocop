@@ -95,6 +95,9 @@ Metrics/PerceivedComplexity:
 Naming/AccessorMethodName:
   Enabled: false
 
+Naming/InclusiveLanguage:
+  Enabled: false
+
 Naming/PredicateName:
   Exclude:
     - '**/application_record.rb'
