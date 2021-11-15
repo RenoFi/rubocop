@@ -150,6 +150,9 @@ Style/PercentLiteralDelimiters:
   Exclude:
     - 'spec/**/*_spec.rb'
 
+Style/OpenStructUse:
+  Enabled: false
+
 Style/RedundantArgument:
   Enabled: false
 
