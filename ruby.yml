@@ -7,9 +7,6 @@ Layout/ArgumentAlignment:
 Layout/CaseIndentation:
   EnforcedStyle: end
 
-Layout/EmptyLineAfterGuardClause:
-  Enabled: false
-
 Layout/EmptyLinesAroundBlockBody:
   Exclude:
     - '**/*_spec.rb'
