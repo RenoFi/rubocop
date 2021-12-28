@@ -17,6 +17,9 @@ RSpec/ExampleLength:
 RSpec/ExpectInHook:
   Enabled: false
 
+RSpec/FactoryBot/SyntaxMethods:
+  Enabled: false
+
 RSpec/LetSetup:
   Enabled: false
 
