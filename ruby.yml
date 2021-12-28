@@ -178,3 +178,6 @@ Style/TrailingCommaInArguments:
 Style/WordArray:
   Exclude:
     - 'db/**/*.rb'
+
+Style/MapToHash:
+  Enabled: false
