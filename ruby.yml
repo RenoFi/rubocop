@@ -122,6 +122,9 @@ Style/Documentation:
 Style/EmptyMethod:
   Enabled: false
 
+Style/FetchEnvVar:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   Enabled: false
 
