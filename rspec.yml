@@ -1,3 +1,6 @@
+RSpec/ChangeByZero:
+  Enabled: false
+
 RSpec/ContextWording:
   Prefixes:
     - as
