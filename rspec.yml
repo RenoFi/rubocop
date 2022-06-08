@@ -4,6 +4,7 @@ RSpec/ChangeByZero:
 RSpec/ContextWording:
   Prefixes:
     - as
+    - by
     - for
     - given
     - having
