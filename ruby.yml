@@ -60,6 +60,8 @@ Metrics/AbcSize:
 
 Metrics/BlockLength:
   Max: 30
+  AllowedMethods:
+    - with_federation_enabled
   Exclude:
     - '*.gemspec'
     - 'db/**/*.rb'
