@@ -24,6 +24,9 @@ RSpec/ExpectInHook:
 RSpec/FactoryBot/SyntaxMethods:
   Enabled: false
 
+RSpec/Rails/InferredSpecType:
+  Enabled: false
+
 RSpec/LetSetup:
   Enabled: false
 
