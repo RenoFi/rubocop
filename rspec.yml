@@ -1,3 +1,6 @@
+RSpec/Rails:
+  Enabled: false
+
 RSpec/ChangeByZero:
   Enabled: false
 
@@ -22,9 +25,6 @@ RSpec/ExpectInHook:
   Enabled: false
 
 RSpec/FactoryBot/SyntaxMethods:
-  Enabled: false
-
-RSpec/Rails/InferredSpecType:
   Enabled: false
 
 RSpec/LetSetup:
