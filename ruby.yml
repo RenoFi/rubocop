@@ -49,6 +49,10 @@ Lint/AmbiguousBlockAssociation:
     # so we can write expect { action }.not_to change { obj }
     - '**/*_spec.rb'
 
+Lint/Debugger:
+  Exclude:
+    - 'spec/spec_helper.rb'
+
 Lint/EmptyBlock:
   Enabled: false
 
