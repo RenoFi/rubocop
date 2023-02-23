@@ -77,6 +77,8 @@ Metrics/BlockLength:
 
 Metrics/ClassLength:
   Max: 300
+  Exclude:
+    - 'graphql/types/query_type.rb'
 
 Metrics/CyclomaticComplexity:
   Max: 20
