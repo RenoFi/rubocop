@@ -101,9 +101,9 @@ Naming/AccessorMethodName:
 Naming/InclusiveLanguage:
   Enabled: false
 
-Naming/PredicateName:
+Naming/PredicateName
   Exclude:
-    - '**/application_record.rb'
+    - 'lib/models/**/*.rb'
 
 Naming/VariableNumber:
   Enabled: false
