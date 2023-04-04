@@ -101,7 +101,7 @@ Naming/AccessorMethodName:
 Naming/InclusiveLanguage:
   Enabled: false
 
-Naming/PredicateName
+Naming/PredicateName:
   Exclude:
     - 'lib/models/**/*.rb'
 
