@@ -102,8 +102,7 @@ Naming/InclusiveLanguage:
   Enabled: false
 
 Naming/PredicateName:
-  Exclude:
-    - 'lib/models/**/*.rb'
+  Enabled: false
 
 Naming/VariableNumber:
   Enabled: false
