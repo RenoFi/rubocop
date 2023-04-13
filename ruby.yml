@@ -133,6 +133,9 @@ Style/FetchEnvVar:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/HashEachMethods:
+  Enabled: false
+
 Style/IfUnlessModifier:
   Enabled: false
 
