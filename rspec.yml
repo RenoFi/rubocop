@@ -50,3 +50,6 @@ RSpec/ReturnFromStub:
 
 RSpec/StubbedMock:
   Enabled: false
+
+RSpec/IndexedLet:
+  Enabled: false
