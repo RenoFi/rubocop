@@ -30,6 +30,10 @@ Layout/FirstArrayElementIndentation:
 Layout/HashAlignment:
   Enabled: false
 
+Lint/DuplicateBranch:
+  IgnoreLiteralBranches: true,
+  IgnoreConstantBranches: true
+
 Layout/LineLength:
   Max: 160
   Exclude:
