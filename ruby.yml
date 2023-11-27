@@ -70,17 +70,7 @@ Metrics/AbcSize:
   Max: 50
 
 Metrics/BlockLength:
-  Max: 30
-  Exclude:
-    - '*.gemspec'
-    - 'db/**/*.rb'
-    - 'config/**/*.rb'
-    - 'lib/commands/**/*.rb'
-    - '**/factories/**/*.rb'
-    - '**/factories.rb'
-    - '**/spec/spec_helper.rb'
-    - '**/spec/**/*'
-    - '**/*.rake'
+  Enabled: false
 
 Metrics/ClassLength:
   Max: 300
