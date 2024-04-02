@@ -1,6 +1,9 @@
 RSpec/Rails:
   Enabled: false
 
+RSpecRails/HaveHttpStatus:
+  Enabled: false
+
 RSpec/ChangeByZero:
   Enabled: false
 
