@@ -1,7 +1,7 @@
 RSpec/Rails:
   Enabled: false
 
-RSpecRails/HaveHttpStatus:
+RSpecRails:
   Enabled: false
 
 RSpec/ChangeByZero:
