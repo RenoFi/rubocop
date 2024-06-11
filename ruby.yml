@@ -76,6 +76,7 @@ Metrics/ClassLength:
   Max: 300
   Exclude:
     - 'graphql/types/query_type.rb'
+    - 'db/**/*.rb'
 
 Metrics/CyclomaticComplexity:
   Max: 20
