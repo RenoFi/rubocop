@@ -47,9 +47,3 @@ RSpec/StubbedMock:
 
 RSpec/IndexedLet:
   Enabled: false
-
-FactoryBot/SyntaxMethods:
-  Enabled: false
-
-FactoryBot/CreateList:
-  Enabled: false
