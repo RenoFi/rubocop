@@ -69,6 +69,8 @@ Lint/UnusedBlockArgument:
 
 Metrics/AbcSize:
   Max: 50
+  Exclude:
+    - 'db/**/*.rb'
 
 Metrics/BlockLength:
   Enabled: false
