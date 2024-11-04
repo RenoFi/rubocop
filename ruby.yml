@@ -172,6 +172,9 @@ Style/RescueStandardError:
   Exclude:
     - 'spec/**/*.rb'
 
+Style/SafeNavigationChainLength:
+  Max: 3
+
 Style/SignalException:
   EnforcedStyle: semantic
 
