@@ -2,8 +2,8 @@
 <!--- Describe your changes in detail -->
 <!--- Why is this change required? What problem does it solve? -->
 
-## Related issue(s) or PR(s)
-<!--- GH issue number -->
+## Related tickets(s), PR(s) or slack message:
+<!--- Ticket/Issue/PR number or URL -->
 
 ## Security
 <!---
