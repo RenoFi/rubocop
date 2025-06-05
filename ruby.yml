@@ -102,7 +102,10 @@ Naming/AccessorMethodName:
 Naming/InclusiveLanguage:
   Enabled: false
 
-Naming/PredicateName:
+Naming/PredicateMethod:
+  Enabled: false
+
+Naming/PredicatePrefix:
   Enabled: false
 
 Naming/VariableNumber:
