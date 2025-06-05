@@ -67,6 +67,9 @@ Lint/EmptyBlock:
 Lint/UnusedBlockArgument:
   Enabled: false
 
+Lint/UselessDefaultValueArgument:
+  Enabled: false
+
 Metrics/AbcSize:
   Max: 50
   Exclude:
