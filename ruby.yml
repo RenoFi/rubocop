@@ -140,8 +140,15 @@ Style/FetchEnvVar:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/GuardClause:
+  Enabled: false
+
 Style/HashEachMethods:
   Enabled: false
+
+Style/HashSyntax:
+  Enabled: true
+  EnforcedShorthandSyntax: always
 
 Style/IfUnlessModifier:
   Enabled: false
