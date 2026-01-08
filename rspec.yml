@@ -39,6 +39,11 @@ RSpec/NamedSubject:
 RSpec/NestedGroups:
   Max: 6
 
+RSpec/Output:
+  Exclude:
+    - '**/spec_helper.rb'
+    - 'spec/support/*.rb'
+
 RSpec/ReturnFromStub:
   EnforcedStyle: block
 
