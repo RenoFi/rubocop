@@ -134,6 +134,9 @@ Style/Documentation:
 Style/EmptyMethod:
   Enabled: false
 
+Style/EmptyClassDefinition:
+  Enabled: false
+
 Style/FetchEnvVar:
   Enabled: false
 
