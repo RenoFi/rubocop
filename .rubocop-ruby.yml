@@ -1,6 +1,8 @@
 AllCops:
   NewCops: enable
   SuggestExtensions: false
+  Exclude:
+    - 'db/**/*.rb'
 
 Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
@@ -14,7 +16,6 @@ Layout/EmptyLineAfterGuardClause:
 Layout/EmptyLinesAroundBlockBody:
   Exclude:
     - '**/*_spec.rb'
-    - 'db/*.rb'
 
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
@@ -37,8 +38,6 @@ Lint/DuplicateBranch:
 
 Layout/LineLength:
   Max: 160
-  Exclude:
-    - 'db/schema.rb'
 
 Layout/MultilineMethodCallBraceLayout:
   Exclude:
@@ -72,8 +71,6 @@ Lint/UselessDefaultValueArgument:
 
 Metrics/AbcSize:
   Max: 50
-  Exclude:
-    - 'db/**/*.rb'
 
 Metrics/BlockLength:
   Enabled: false
@@ -82,7 +79,6 @@ Metrics/ClassLength:
   Max: 300
   Exclude:
     - 'graphql/types/query_type.rb'
-    - 'db/**/*.rb'
 
 Metrics/CyclomaticComplexity:
   Max: 20
@@ -164,10 +160,6 @@ Style/MixinUsage:
     - 'bin/*'
     - 'Rakefile'
 
-Style/NumericLiterals:
-  Exclude:
-    - 'db/*.rb'
-
 Style/NumericPredicate:
   EnforcedStyle: comparison
 
@@ -208,7 +200,3 @@ Style/TrailingCommaInHashLiteral:
 
 Style/TrailingCommaInArguments:
   Enabled: false
-
-Style/WordArray:
-  Exclude:
-    - 'db/**/*.rb'
